@@ -1,13 +1,9 @@
 package exam2;
-import java.util.Arrays;
 import java.util.Scanner;
-import java.util.Iterator;
-import java.util.Set;
-import java.util.TreeMap;
 public class changhenge {
  
  public static void main(String args[]) {
-  String str = "ºº»ÊÖØÉ«Ë¼Çã¹úÓùÓî¶àÄêÇó²»µÃÑî¼ÒÓÐÅ®³õ³¤³ÉÑøÔÚÉî¹ëÈËÎ´Ê¶ÌìÉúÀöÖÊÄÑ×ÔÆúÒ»³¯Ñ¡ÔÚ¾ýÍõ²à»ØíøÒ»Ð¦°ÙÃÄÉúÁù¹¬·Û÷ìÎÞÑÕÉ«´ºº®´ÍÔ¡»ªÇå³ØÎÂÈªË®»¬Ï´ÄýÖ¬ÊÌ¶ù·öÆð½¿ÎÞÁ¦Ê¼ÊÇÐÂ³Ð¶÷ÔóÊ±ÔÆ÷Þ»¨ÑÕ½ð²½Ò¡Ü½ÈØÕÊÅ¯¶È´ºÏü´ºÏü¿à¶ÌÈÕ¸ßÆð´Ó´Ë¾ýÍõ²»Ôç³¯³Ð»¶ÊÌÑçÎÞÏÐÏ¾´º´Ó´ºÓÎÒ¹×¨Ò¹ºó¹¬¼ÑÀöÈýÇ§ÈËÈýÇ§³è°®ÔÚÒ»Éí½ðÎÝ×±³É½¿ÊÌÒ¹ÓñÂ¥Ñç°Õ×íºÍ´ºæ¢ÃÃµÜÐÖ½ÔÁÐÊ¿¿ÉÁ¯¹â²ÉÉúÃÅ»§ËìÁîÌìÏÂ¸¸Ä¸ÐÄ²»ÖØÉúÄÐÖØÉúÅ®æê¹¬¸ß´¦ÈëÇàÔÆÏÉÀÖ·çÆ®´¦´¦ÎÅ»º¸èÂýÎèÄýË¿Öñ¾¡ÈÕ¾ýÍõ¿´²»×ãÓæÑôÜ±¹Ä¶¯µØÀ´¾ªÆÆÄÞÉÑÓðÒÂÇú¾ÅÖØ³ÇãÚÑÌ³¾ÉúÇ§³ËÍòÆïÎ÷ÄÏÐÐ";
+  String str = "æ±‰çš‡é‡è‰²æ€å€¾å›½å¾¡å®‡å¤šå¹´æ±‚ä¸å¾—æ¨å®¶æœ‰å¥³åˆé•¿æˆå…»åœ¨æ·±é—ºäººæœªè¯†å¤©ç”Ÿä¸½è´¨éš¾è‡ªå¼ƒä¸€æœé€‰åœ¨å›çŽ‹ä¾§å›žçœ¸ä¸€ç¬‘ç™¾åªšç”Ÿå…­å®«ç²‰é»›æ— é¢œè‰²æ˜¥å¯’èµæµ´åŽæ¸…æ± æ¸©æ³‰æ°´æ»‘æ´—å‡è„‚ä¾å„¿æ‰¶èµ·å¨‡æ— åŠ›å§‹æ˜¯æ–°æ‰¿æ©æ³½æ—¶äº‘é¬“èŠ±é¢œé‡‘æ­¥æ‘‡èŠ™è“‰å¸æš–åº¦æ˜¥å®µæ˜¥å®µè‹¦çŸ­æ—¥é«˜èµ·ä»Žæ­¤å›çŽ‹ä¸æ—©æœæ‰¿æ¬¢ä¾å®´æ— é—²æš‡æ˜¥ä»Žæ˜¥æ¸¸å¤œä¸“å¤œåŽå®«ä½³ä¸½ä¸‰åƒäººä¸‰åƒå® çˆ±åœ¨ä¸€èº«é‡‘å±‹å¦†æˆå¨‡ä¾å¤œçŽ‰æ¥¼å®´ç½¢é†‰å’Œæ˜¥å§Šå¦¹å¼Ÿå…„çš†åˆ—å£«å¯æ€œå…‰é‡‡ç”Ÿé—¨æˆ·é‚ä»¤å¤©ä¸‹çˆ¶æ¯å¿ƒä¸é‡ç”Ÿç”·é‡ç”Ÿå¥³éªŠå®«é«˜å¤„å…¥é’äº‘ä»™ä¹é£Žé£˜å¤„å¤„é—»ç¼“æ­Œæ…¢èˆžå‡ä¸ç«¹å°½æ—¥å›çŽ‹çœ‹ä¸è¶³æ¸”é˜³é¼™é¼“åŠ¨åœ°æ¥æƒŠç ´éœ“è£³ç¾½è¡£æ›²ä¹é‡åŸŽé˜™çƒŸå°˜ç”Ÿåƒä¹˜ä¸‡éª‘è¥¿å—è¡Œ";
   char[] chs=str.toCharArray();
   for (int i=0; i<34; i++) {
    System.out.print(chs[(i*7)]);
@@ -18,9 +14,9 @@ public class changhenge {
    System.out.print(chs[(i*7)+5]);
    System.out.print(chs[(i*7)+6]);
    if (i % 2 == 0) 
-       System.out.print('£¬');
+       System.out.print('ï¼Œ');
    else
-       System.out.println('¡£');
+       System.out.println('ã€‚');
   }
   Scanner input=new Scanner(System.in);
   String b=input.next();
@@ -41,6 +37,6 @@ public class changhenge {
              k = i+1;
          }
      }
-     System.out.println(s+"³öÏÖµÄ´ÎÊýÎª"+count+"´Î");
+     System.out.println(s+"å‡ºçŽ°çš„æ¬¡æ•°ä¸º"+count+"æ¬¡");
    }
 }
